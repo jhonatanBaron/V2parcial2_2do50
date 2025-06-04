@@ -29,6 +29,12 @@ Para asegurar un endpoint utilizando certificados TLS automáticos en Traefik, e
 
 
 ----------paso a paso del codigo
-●implementación del docker- compose con servicios :  api,worker,rabbitmq,traefik ver imagenes en carpetta /evidences : "2.1_1" ;"2.1_2";"2.1_3";"2.1_4" y "2.1_5"
+●implementación del docker- compose con servicios :  api,worker,rabbitmq,traefik ver imagenes en carpeta /evidences : "2.1_1" ;"2.1_2";"2.1_3";"2.1_4" y "2.1_5"
 
-●implementacipn de api productora de mensajes
+●implementacipn de api productora de mensajes endpoint  POST/message ver imagenes en carpeta /evidences -->"2.2"
+●creación del worker consumidor ver imagenes en carpetta /evidences -->"2.3"
+
+
+●Configuracion de traefik ,ver imagenes en carpeta /evidences -->"2.4"
+
+●Extra bonus,ver imagenes en carpeta /evidences -->"2.5"
