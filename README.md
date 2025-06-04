@@ -29,6 +29,32 @@ Para asegurar un endpoint utilizando certificados TLS automáticos en Traefik, e
 
 
 ----------paso a paso del codigo
+EL desarrollo del codigo se enmarca desde aqui: 
+la estructura que se maneja dle projecto es la siguiente : 
+
+jhona@jhona:~/Descargas/microservices_project$ tree
+.
+├── api
+│   ├── Dockerfile
+│   └── main.py
+├── docker-compose.yml
+├── traefik
+│   └── traefik.yml
+└── worker
+    ├── Dockerfile
+    └── worker.py
+
+para correr inicialmente dirigete a V2parcial2_2do50/microservices_project
+
+ejecuta el comando docker compose up -d --build
+
+accesos a API  Y RABBITMQ desde : 
+API: http://localhost/api/docs
+
+RabbitMQ: http://localhost/monitor
+http://localhost:15672/#/
+
+
 ●implementación del docker- compose con servicios :  api,worker,rabbitmq,traefik ver imagenes en carpeta /evidences : "2.1_1" ;"2.1_2";"2.1_3";"2.1_4" y "2.1_5"
 
 ●implementacipn de api productora de mensajes endpoint  POST/message ver imagenes en carpeta /evidences -->"2.2"
